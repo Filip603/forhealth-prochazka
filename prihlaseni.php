@@ -2,8 +2,8 @@
     include "includes/menu.php";
 ?>
 
-<div class="box">
-    O nás
+<div class="login">
+    Přihlášení
 </div>
 
 

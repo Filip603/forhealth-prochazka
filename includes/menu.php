@@ -10,30 +10,28 @@
     <div class="menu">
 
         <div class="menu__logo">
-            <img class="logo" src="images/logo.png" alt="">
+            <a href="index.php"><img class="logo" src="images/logo.png" alt=""></a>
         </div>
 
-        <div class="menu__part1">
+        <div class="menu__part">
 
             <h2>
-              <a href=""> Produkty </a>
+              <a href="produkty.php"> Produkty </a>
             </h2>
 
             <h2>
-               <a href=""> O nás </a>
+               <a href="onas.php"> O nás </a>
             </h2>
 
             <h2>
-               <a href=""> Kontakty </a>
+               <a href="kontakt.php"> Kontakty </a>
             </h2>
 
-        </div>
-
-        <div class="menu__part2">
-
-           <a href=""> <img class="picture" src="images/uzivatel.png" alt=""> </a>
-           <a href=""><img class="picture"  src="images/kosik.png" alt=""> </a>
+            <a href="prihlaseni.php"> <img class="picture" src="images/uzivatel.png" alt=""> </a>
+           <a href="kosik.php"><img class="picture"  src="images/kosik.png" alt=""> </a>
 
         </div>
+
+ 
 
     </div>
