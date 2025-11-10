@@ -12,7 +12,7 @@
 
     <div class="box__part">
         <div class="box__part--people">
-            <img class="box__picture" src="" alt="">
+            <img class="box__picture" src="images/bohm.jpg" alt="">
             <h2>
                 Jakub Böhm
             </h2>
@@ -22,7 +22,7 @@
         </div>
 
         <div class="box__part--people">
-            <img class="box__picture" src="" alt="">
+            <img class="box__picture" src="images/hepner.jpg" alt="">
             <h2>
                 Tomáš Hepner
             </h2>
@@ -35,17 +35,17 @@
 
     <div class="box__part">
         <div class="box__part--people">
-            <img class="box__picture" src="" alt="">
+            <img class="box__picture" src="images/filip.jpg" alt="">
             <h2>
                 Filip Procházka
             </h2>
             <h2>
-                pozice
+                finanční ředitel
             </h2>
         </div>
 
         <div class="box__part--people">
-            <img class="box__picture" src="" alt="">
+            <img class="box__picture" src="images/kellner.jpg" alt="">
             <h2>
                 František Kellner
             </h2>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="box__part--people">
-            <img class="box__picture" src="" alt="">¨
+            <img class="box__picture" src="images/kupec.jpg" alt="">
             <h2>
                 Jan Kupeček
             </h2>
@@ -89,6 +89,7 @@
 
 </div>
 
+<script src="js/index.js"></script>
 
 <?php 
     include "includes/footer.php";

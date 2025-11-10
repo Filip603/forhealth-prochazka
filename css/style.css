@@ -1,20 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+html{
+  font-family: "Alan Sans", sans-serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .menu{
     width: 100%;
-    min-height: 120px;
+    min-height: 100px;
     font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.274);
-    border-radius: 0 0 40px 40px;
+    background-color: rgba(0, 0, 0, 0.664);
+    border-radius: 0 0 70px 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     flex-wrap: wrap;
-    gap: 120px;
+    gap: 50px;
     position: fixed;
     z-index: 5000;
 }
@@ -34,8 +43,8 @@
   height: 50px;
 }
 .logo{
-    height: 100px;
-    width: 220px;
+    height: 85px;
+    width: 180px;
 }
 .instalogo{
     height: 80px;
@@ -47,12 +56,23 @@ a{
 }
 .footer{
     width: 100%;
-    min-height: 200px;
-    background-color: rgb(19, 19, 19);
+    min-height: 180px;
+    background-color: rgba(0, 0, 0, 0.753);
+    background-image: url(../images/pozadicko.jpg);
     display: flex;
     color: white;
     justify-content: space-around;
     align-items: center;
+}
+.footer--grey{
+    width: 100%;
+    min-height: 200px;
+    background-color: rgba(0, 0, 0, 0.685);
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px 40px 0 0;
 }
 .footer__insta{
     display: flex;
@@ -75,7 +95,7 @@ a{
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
 }
 .footer__logo{
     margin-bottom: 15px;
@@ -83,11 +103,14 @@ a{
     width: 220px;
 }
 .hero{
-    height: 1500px;
+    width: 100%;
+    height: 1200px;
     display: flex;
     justify-content: center;
+    background-image: url(../images/pozadicko.jpg);
     background-color: rgb(32, 32, 32);
     position: relative;
+    flex-direction: column;
     margin: auto;
 }
 .container{
@@ -97,28 +120,30 @@ a{
     align-items: center;
 }
 .box{
-    height: 2000px;
+  width: 100%;
+    min-height: 1900px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 180px;
-    background-color: #717171;
+    background-color: #00000085;
+    background-image: url(../images/pozadicko.jpg);
     color: white;
     gap: 80px;
 }
 .box__part--people{
-  height: 500px;
-  width: 360px;
-  background-color: black;
+  height: 450px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.753);
   border-radius: 40px 40px 40px 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 .box__picture{
-  width: 320px;
-  height: 380px;
-  margin-bottom: 20px;
+  width: 250px;
+  height: 320px;
+  margin-bottom: 25px;
   margin-top: 20px;
   border-radius: 40px 40px 40px 40px;
 }
@@ -128,7 +153,13 @@ a{
   flex-wrap: wrap;
 }
 .box__text{
-  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 410px;
+  background-color: #00000094;
+  border-radius: 25px;
 }
 .content{
     height: 650px;
@@ -159,25 +190,315 @@ a{
     position: absolute;
     top: 40px;
     left: 0;
-    bottom: 0; /* zarovná čáru k dolnímu okraji textu */
+    bottom: 0; 
     width: 0;
-    height: 2px; /* tloušťka čáry */
-    background-color: #ffffff; /* barva čáry */
-    transition: width 0.4s ease; /* plynulý přechod */
+    height: 4px; 
+    background-color: #ffffff; 
+    transition: width 0.4s ease; 
 }
 .underline:hover::after{
   width: 100%;
 }
+.slideshow-container {
+  width: 88%;
+  position: relative;
+  margin: auto;
+  margin-top: 120px;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 5px 5px 5px 5px;
+  user-select: none;
+  top: 48%;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.mySlides__picture3{
+  position: absolute;
+  width: 30%;
+  max-width: 400px;
+  height: auto;
+  top: 25%;
+  right: 45%;
+  rotate: -8deg;
+}
+.mySlides__picture2{
+  position: absolute;
+  max-width: 500px;
+  width: 30%;
+  height: auto;
+  top: 20%;
+  left: 16%;
+  rotate: -10deg;
+}
+.mySlides__picture1{
+  position: absolute;
+  width: 30%;
+  max-width: 400px;
+  height: auto;
+  top: 25%;
+  right: 18%;
+  rotate: 10deg;
+}
+.mySlides__text1{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 42%;
+  left: 10%;
+  font-size: 30px;
+}
+.mySlides__hlavnitext1{
+  border-bottom: white 4px solid;
+  width: 430px;
+}
+.mySlides__textík1{
+  font-size: 20px;
+  padding-top: 15px;
+  width: 430px;
+  display: flex;
+  line-height: 30px;
+}
+.mySlides__text2{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 35%;
+  right: 20%;
+  font-size: 30px;
+}
+.mySlides__hlavnitext2{
+  border-bottom: white 4px solid;
+  width: 460px;
+  display: flex;
+}
+.mySlides__textík2{
+  font-size: 20px;
+  padding-top: 15px;
+  width: 430px;
+  display: flex;
+  line-height: 30px;
+}
+.mySlides__text3{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  font-size: 30px;
+}
+.mySlides__hlavnitext3{
+  border-bottom: white 4px solid;
+  width: 460px;
+  display: flex;
+}
+.mySlides__textík3{
+  font-size: 20px;
+  padding-top: 15px;
+  width: 430px;
+  display: flex;
+  line-height: 30px;
+}
+.mySlides__background{
+  border-radius: 30px 30px 30px 30px;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.hero2, .hero3{
+  width: 100%;
+  height: 900px;
+  background-image: url(../images/pozadicko.jpg);
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.hero2__produkt--text{
+  min-height: 500px;
+  width: 750px;
+  padding-top: 50px;
+  color: white;
+  background-color: #00000094;
+  border-radius: 40px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero3__produkt--text{
+  min-height: 440px;
+  width: 750px;
+  padding-top: 50px;
+  color: white;
+  background-color: #00000094;
+  border-radius: 40px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero2__picture, .hero3__picture{
+  max-height: 750px;
+  max-width: 550px;
+  border-radius: 40px 40px 40px 40px;
+}
+.hero2__maintext, .hero3__maintext{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.hero2__text, .hero3__text{
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  line-height: 40px;
+  padding-top: 50px;
+}
+.hero4{
+  width: 100%;
+  min-height: 500px;
+  background-image: url(../images/pozadicko.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  color: white;
+}
+.hero4__maintext{
+  min-height: 50px;
+  max-width: 250px;
+  background-color: #00000085;
+  border-radius: 25px 25px 25px 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  padding: 10px;
+}
+.hero4__text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  background-color: #00000085;
+  border-radius: 25px 25px 25px 25px;
+  padding: 25px;
+}
+.hero4__image{
+  max-height: 400px;
+  max-width: 800px;
+  background-color: #00000094;
+  border-radius: 25px 25px 25px 25px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#navbar {
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+#navbar a {
+  color: #f2f2f2;
+  padding: 15px;
+  text-decoration: none;
+}
+#navbar a:hover {
+}
+@media (max-width: 1650px) {
 
-@media (max-width: 992px) {
-  .menu {
-    gap: 40px;
+  .hero{
+    height: 900px;
+  }
+  .menu__part{
+    gap: 15px;
   }
 
-  .menu__part {
-    gap: 20px;
-    padding-left: 0;
+  .menu{
+    font-size: 15px;
+    gap: 30px;
+  }
+
+  .mySlides__hlavnitext1, .mySlides__hlavnitext2, .mySlides__hlavnitext3{
+    display: none;
+  }
+
+  .mySlides__textík1, .mySlides__textík2, .mySlides__textík3{
+    display: none;
+  }
+
+  .mySlides__picture1, .mySlides__picture3{
+    width: 20%;
+    right: 40%;
+  }
+
+  .mySlides__picture2{
+    left: 35%;
+    top: 5%;
+  }
+
+  .hero2, .hero3{
+    gap: 120px;
+    height: 600px;
+  }
+
+  .hero2__picture, .hero3__picture{
+    max-height: 500px;
+    max-width: 300px;
+  }
+
+  .hero2__text, .hero3__text{
+    max-width: 500px;
+    line-height: 40px;
+    padding-top: 50px;
+    font-size: 20px;
+  }
+
+  .hero3__produkt--text{
+    max-width: 550px;
+  }
+  
+  .hero4__text{
+    max-width: 1200px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero{
+    height: 400px;
+  }
+  .menu {
+    gap: 40px;
   }
 
   .logo {
@@ -189,6 +510,26 @@ a{
     width: 40px;
     height: 40px;
   }
+
+  .hero3__picture {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 40px;
+  }
+   .hero2, .hero3{
+    gap: 100px;
+  }
+   .hero2__text, .hero3__text{
+    max-width: 300px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .hero3__produkt--text, .hero2__produkt--text{
+    width: 400px;
+  }
+
 }
 
 
@@ -224,7 +565,7 @@ a{
     font-size: 20px;
   }
 
-  .footer {
+  .footer, .footer--grey {
     flex-direction: column;
     text-align: center;
     gap: 20px;
@@ -242,88 +583,46 @@ a{
   .hero__slider{
     margin-top: 500px;
   }
-}
 
+  .box{
+    display: flex;
+    justify-content: center;
+    padding-top: 500px;
+    padding-bottom: 40px;
+  }
 
-.hero{
-  height: 1500px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
+  .box__part{
+    display: flex;
+    justify-content: center;
+  }
 
-.slideshow-container {
-  width: 75%;
-  height: 800px;
-  position: relative;
-  margin: auto;
-}
+  .hero2{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
+  .hero3{
+    flex-direction: column;
+  }
 
-.mySlides {
-  display: none;
-}
+  .hero3__picture, .hero2__picture {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 40px;
+  }
 
+  .hero3__produkt--text, .hero2__produkt--text{
+    font-size: 10px;
+    max-width: 250px;
+    align-items: center;
+  }
 
+  .hero3__text, .hero2__text{
+    padding-left: 12px;
+  }
 
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 65%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  .hero2, .hero3{
+    height: 1100px;
+  }
 }

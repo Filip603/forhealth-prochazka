@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="menu">
+
+    <div class="menu" id="navbar">
 
         <div class="menu__logo">
             <a href="index.php"><img class="logo" src="images/logo.png" alt=""></a>
@@ -32,6 +33,9 @@
 
         </div>
 
- 
-
     </div>
+
+
+
+
+        
