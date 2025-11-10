@@ -6,27 +6,32 @@
 .menu{
     width: 100%;
     min-height: 120px;
-    background-color: rgba(0, 0, 0, 0.801);
-    border-radius: 0 0 25px 25px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 0 0 40px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     flex-wrap: wrap;
     gap: 120px;
+    position: fixed;
+    z-index: 5000;
 }
 .menu__part{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-
     padding-left: 100px;
-
 }
-.picture{
-    width: 50px;
-    height: 50px;
+.picture-uzivatel{
+    width: 45px;
+    height: 40px;
+}
+.picture-cart{
+  width: 50px;
+  height: 50px;
 }
 .logo{
     height: 100px;
@@ -43,18 +48,16 @@ a{
 .footer{
     width: 100%;
     min-height: 200px;
-    background-color: rgba(0, 0, 0, 0.815);
+    background-color: rgb(19, 19, 19);
     display: flex;
     color: white;
     justify-content: space-around;
     align-items: center;
-    border-radius: 25px 25px 0 0;
 }
 .footer__insta{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
 }
 .footer__info{
     display: flex;
@@ -80,10 +83,12 @@ a{
     width: 220px;
 }
 .hero{
-    height: 650px;
+    height: 1500px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    margin: auto;
 }
 .container{
     height: 650px;
@@ -92,10 +97,38 @@ a{
     align-items: center;
 }
 .box{
-    height: 650px;
+    height: 2000px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    padding-top: 180px;
+    background-color: #717171;
+    color: white;
+    gap: 80px;
+}
+.box__part--people{
+  height: 500px;
+  width: 360px;
+  background-color: black;
+  border-radius: 40px 40px 40px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.box__picture{
+  width: 320px;
+  height: 380px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 40px 40px 40px 40px;
+}
+.box__part{
+  display: flex;
+  gap: 200px;
+  flex-wrap: wrap;
+}
+.box__text{
+  height: 25px;
 }
 .content{
     height: 650px;
@@ -114,6 +147,26 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.underline{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+  .underline::after{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    bottom: 0; /* zarovná čáru k dolnímu okraji textu */
+    width: 0;
+    height: 2px; /* tloušťka čáry */
+    background-color: #ffffff; /* barva čáry */
+    transition: width 0.4s ease; /* plynulý přechod */
+}
+.underline:hover::after{
+  width: 100%;
 }
 
 
@@ -137,8 +190,6 @@ a{
     height: 40px;
   }
 }
-
-
 
 
 @media (max-width: 768px) {
@@ -187,4 +238,92 @@ a{
   .footer__contacts{
     padding-top: 20px;
   }
+
+  .hero__slider{
+    margin-top: 500px;
+  }
+}
+
+
+.hero{
+  height: 1500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.slideshow-container {
+  width: 75%;
+  height: 800px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 65%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }

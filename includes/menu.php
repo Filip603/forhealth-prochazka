@@ -15,20 +15,20 @@
 
         <div class="menu__part">
 
-            <h2>
+            <h2 class="underline">
               <a href="produkty.php"> Produkty </a>
             </h2>
 
-            <h2>
+            <h2 class="underline">
                <a href="onas.php"> O nás </a>
             </h2>
 
-            <h2>
+            <h2 class="underline">
                <a href="kontakt.php"> Kontakty </a>
             </h2>
 
-            <a href="prihlaseni.php"> <img class="picture" src="images/uzivatel.png" alt=""> </a>
-           <a href="kosik.php"><img class="picture"  src="images/kosik.png" alt=""> </a>
+            <a href="prihlaseni.php"> <img class="picture-uzivatel" src="images/uzivatel-icon.png" alt=""> </a>
+           <a href="kosik.php"><img class="picture-cart"  src="images/cart.png" alt=""> </a>
 
         </div>
 
