@@ -3,7 +3,12 @@
 ?>
 
 <div class="eachprodukt">
-    
+    <div>
+
+    </div>
+
+    <img class="eachprodukt__image" src="images/noc-lahvicka.png" alt="">
+
 </div>
 
 

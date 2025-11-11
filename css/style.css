@@ -14,7 +14,7 @@ body{
 }
 .menu{
     width: 100%;
-    min-height: 100px;
+    min-height: 75px;
     font-size: 20px;
     background-color: rgba(0, 0, 0, 0.664);
     border-radius: 0 0 70px 70px;
@@ -43,8 +43,8 @@ body{
   height: 50px;
 }
 .logo{
-    height: 85px;
-    width: 180px;
+    height: 75px;
+    width: 160px;
 }
 .instalogo{
     height: 80px;
@@ -104,7 +104,7 @@ a{
 }
 .hero{
     width: 100%;
-    height: 1200px;
+    height: 1100px;
     display: flex;
     justify-content: center;
     background-image: url(../images/pozadicko.jpg);
@@ -127,22 +127,22 @@ a{
     gap: 80px;
 }
 .box__part--people{
-  height: 550px;
-  width: 400px;
-  background-color: rgba(0, 0, 0, 0.753);
+  height: 500px;
+  width: 360px;
+  background-color: rgba(0, 0, 0, 0.705);
   border-radius: 40px 40px 40px 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 .box__part--people:hover{
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 .box__picture{
-  width: 330px;
-  height: 420px;
-  margin-bottom: 25px;
-  margin-top: 20px;
+  width: 290px;
+  height: 370px;
+  margin-bottom: 16px;
+  margin-top: 28px;
   border-radius: 40px 40px 40px 40px;
 }
 .box__part{
@@ -198,7 +198,7 @@ a{
   width: 100%;
 }
 .slideshow-container {
-  width: 88%;
+  width: 86%;
   position: relative;
   margin: auto;
   margin-top: 120px;
@@ -331,12 +331,11 @@ a{
 }
 .hero2, .hero3{
   width: 100%;
-  height: 900px;
+  height: 700px;
   background-image: url(../images/pozadicko.jpg);
   display: flex;
   justify-content: center;
-  gap: 400px;
-  padding-top: 100px;
+  gap: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -369,8 +368,8 @@ a{
   justify-content: center;
 }
 .hero2__picture, .hero3__picture{
-  max-height: 750px;
-  max-width: 550px;
+  max-height: 600px;
+  max-width: 420px;
   border-radius: 40px 40px 40px 40px;
 }
 .hero2__maintext, .hero3__maintext{
@@ -479,8 +478,8 @@ a{
   border-radius: 25px 25px 25px 25px;
 }
 .container__produkt1{
-  height: 560px;
-  width: 380px;
+  height: 550px;
+  width: 350px;
   border-radius: 40px 40px 40px 40px;
   display: flex;
   justify-content: center;
@@ -490,14 +489,14 @@ a{
   cursor: pointer;
 }
 .container__produkt1:hover{
-  height: 560px;
-  width: 380px;
+  height: 550px;
+  width: 350px;
   border-radius: 25px 25px 25px 25px;
   background-image: url(../images/noc1.png);
 }
 .container__produkt2{
-  height: 560px;
-  width: 380px;
+  height: 550px;
+  width: 350px;
   border-radius: 40px 40px 40px 40px;
   display: flex;
   justify-content: center;
@@ -507,8 +506,8 @@ a{
   cursor: pointer;
 }
 .container__produkt3{
-  height: 560px;
-  width: 380px;
+  height: 550px;
+  width: 350px;
   border-radius: 40px 40px 40px 40px;
   display: flex;
   justify-content: center;
@@ -518,20 +517,20 @@ a{
   cursor: pointer;
 }
 .container__produkt3:hover{
-  height: 560px;
-  width: 380px;
+  height: 550px;
+  width: 350px;
   border-radius: 25px 25px 25px 25px;
   background-image: url(../images/stres1.png);
 }
 .container__produkt2:hover{
-  height: 560px;
-  width: 380px;
+  height: 550px;
+  width: 350px;
   border-radius: 25px 25px 25px 25px;
   background-image: url(../images/slunce1.png);
 }
 .container__produkt4{
-  height: 560px;
-  width: 380px;
+  height: 550px;
+  width: 350px;
   border-radius: 40px 40px 40px 40px;
   display: flex;
   justify-content: center;
@@ -541,14 +540,14 @@ a{
   cursor: pointer;
 }
 .container__produkt4:hover{
-  height: 560px;
-  width: 380px;
+  height: 550px;
+  width: 350px;
   border-radius: 25px 25px 25px 25px;
   background-image: url(../images/more1.png);
 }
 .container__produkt5{
-  height: 560px;
-  width: 380px;
+  height: 550px;
+  width: 350px;
   border-radius: 40px 40px 40px 40px;
   display: flex;
   justify-content: center;
@@ -558,14 +557,14 @@ a{
   cursor: pointer;
 }
 .container__produkt5:hover{
-  height: 560px;
-  width: 380px;
+  height: 550px;
+  width: 350px;
   border-radius: 25px 25px 25px 25px;
   background-image: url(../images/hory1.png);
 }
 .container__produkt6{
-  height: 560px;
-  width: 380px;
+  height: 550px;
+  width: 350px;
   border-radius: 40px 40px 40px 40px;
   display: flex;
   justify-content: center;
@@ -575,18 +574,18 @@ a{
   cursor: pointer;
 }
 .container__produkt6:hover{
-  height: 560px;
-  width: 380px;
+  height: 550px;
+  width: 350px;
   border-radius: 25px 25px 25px 25px;
   background-image: url(../images/les1.png);
 }
 .container__image{
-  height: 470px;
-  width: 330px;
+  height: 430px;
+  width: 315px;
 }
 .container__image2{
-  height: 380px;
-  width: 200px;
+  height: 360px;
+  width: 185px;
   padding-bottom: 20px;
   margin-top: 70px;
   margin-bottom: 20px;
@@ -595,6 +594,19 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.eachprodukt{
+  width: 100%;
+  min-height: 1000px;
+  background-image: url(../images/pozadicko.jpg);
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  padding-top: 200px;
+}
+.eachprodukt__image{
+  max-height: 600px;
+  width: auto;
 }
 @media (max-width: 1650px) {
   .container2, .container3{
