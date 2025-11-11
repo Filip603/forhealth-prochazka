@@ -445,22 +445,24 @@ a{
     color: white;
 }
 .container2{
-  height: 700px;
+  min-height: 700px;
   width: 100%;
   background-image: url(../images/pozadicko.jpg);
   display: flex;
   justify-content: center;
   gap: 300px;
   color: white;
+  flex-wrap: wrap;
 }
 .container3{
-  height: 700px;
+  min-height: 700px;
   width: 100%;
   background-image: url(../images/pozadicko.jpg);
   display: flex;
   justify-content: center;
   gap: 300px;
   color: white;
+  flex-wrap: wrap;
 }
 .container__maintext{
   background-color: #00000085;
@@ -587,6 +589,10 @@ a{
 }
 @media (max-width: 1650px) {
 
+  .produkt2, .produkt3{
+    gap: 150px;
+  }
+
   .hero{
     height: 900px;
   }
@@ -646,6 +652,7 @@ a{
 }
 
 @media (max-width: 1000px) {
+
   .hero{
     height: 400px;
   }
