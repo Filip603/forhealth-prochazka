@@ -50,7 +50,7 @@
                 František Kellner
             </h2>
             <h2>
-                pozice
+                marketér
             </h2>
         </div>
 

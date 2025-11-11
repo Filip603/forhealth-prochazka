@@ -8,7 +8,7 @@ var prevScrollpos = window.pageYOffset;
         }
         prevScrollpos = currentScrollPos;
         }
-if (window.innerWidth <= 1000 && window.innerWidth <= 768) {
+if (window.innerWidth <= 1000) {
     var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
