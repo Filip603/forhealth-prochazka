@@ -186,7 +186,7 @@ a{
 .underline::after{
   content: "";
   position: absolute;
-  top: 40px;
+  top: 55px;
   left: 0;
   bottom: 0; 
   width: 0;
@@ -364,6 +364,10 @@ a{
   flex-direction: column;
   align-items: center;
 }
+.hero3__produkt--picture, .hero2__produkt--picture{
+  display: flex;
+  justify-content: center;
+}
 .hero2__picture, .hero3__picture{
   max-height: 750px;
   max-width: 550px;
@@ -450,7 +454,7 @@ a{
   background-image: url(../images/pozadicko.jpg);
   display: flex;
   justify-content: center;
-  gap: 300px;
+  gap: 200px;
   color: white;
   flex-wrap: wrap;
 }
@@ -460,7 +464,7 @@ a{
   background-image: url(../images/pozadicko.jpg);
   display: flex;
   justify-content: center;
-  gap: 300px;
+  gap: 200px;
   color: white;
   flex-wrap: wrap;
 }
@@ -581,13 +585,22 @@ a{
   width: 330px;
 }
 .container__image2{
-  height: 400px;
+  height: 380px;
   width: 200px;
-  padding-bottom: 40px;
-  margin-top: 50px;
+  padding-bottom: 20px;
+  margin-top: 70px;
   margin-bottom: 20px;
 }
+a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media (max-width: 1650px) {
+  .container2, .container3{
+    gap: 80px;
+    padding-bottom: 80px;
+  }
 
   .produkt2, .produkt3{
     gap: 150px;
@@ -653,11 +666,16 @@ a{
 
 @media (max-width: 1000px) {
 
+  .container2, .container3{
+    gap: 70px;
+    padding-bottom: 70px;
+  }
+
   .hero{
     height: 400px;
   }
   .menu {
-    gap: 40px;
+    gap: 20px;
   }
 
   .logo {
@@ -689,14 +707,58 @@ a{
     width: 400px;
   }
 
+  .box__part--people{
+    height: 420px;
+    width: 300px;
+  }
+  
+  .box__picture{
+    height: 280px;
+    width: 220px;
+  }
+
 }
 
 
 @media (max-width: 768px) {
+  .container2, .container3{
+    gap: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .container{
+    padding-top: 400px;
+  }
+
+  .container__produkt1, .container__produkt2, .container__produkt3, .container__produkt4, .container__produkt5, .container__produkt6{
+    height: 450px;
+    width: 300px;
+  }
+
+  .container__image{
+    height: 350px;
+    width: 220px;
+  }
+
+  .container__image2{
+    padding: 0;
+    height: 270px;
+    width: 150px;
+  }
+
+  .footer{
+    font-size: 12px;
+  }
+
   .menu {
     justify-content: space-between;
     flex-direction: column;
     padding: 10px 20px;
+    font-size: 12px;
+  }
+  
+  .navbar{
+    font-size: 12px;
   }
 
   .menu__logo{
@@ -746,8 +808,16 @@ a{
   .box{
     display: flex;
     justify-content: center;
-    padding-top: 500px;
+    padding-top: 350px;
     padding-bottom: 40px;
+  }
+
+  .underline::after{
+    top: 45px;
+  }
+
+  .hero{
+    padding-top: 300px;
   }
 
   .box__part{
@@ -758,10 +828,15 @@ a{
   .hero2{
     flex-direction: column-reverse;
     align-items: center;
+    padding-top: 150px;
+    gap: 20px;
   }
 
   .hero3{
     flex-direction: column;
+    gap: 20;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .hero3__picture, .hero2__picture {
@@ -783,5 +858,32 @@ a{
 
   .hero2, .hero3{
     height: 1100px;
+  }
+
+  .menu {
+    font-size: 6px;
+    min-height: 30px;
+    gap: 0px;
+    padding: 0;
+  }
+
+  .logo {
+    width: 120px;
+    height: auto;
+  }
+
+  .picture-uzivatel, .picture-cart, .instalogo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .underline{
+    height: 36px;
+  }
+  
+  .menu__part{
+    padding: 0;
+    height: auto;
+    gap: 0;
   }
 }

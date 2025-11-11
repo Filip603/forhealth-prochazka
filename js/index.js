@@ -15,7 +15,7 @@ if (window.innerWidth <= 1000) {
         if (prevScrollpos > currentScrollPos) {
             document.getElementById("navbar").style.top = "0";
         } else {
-            document.getElementById("navbar").style.top = "-460px";
+            document.getElementById("navbar").style.top = "-300px";
         }
         prevScrollpos = currentScrollPos;
         }
