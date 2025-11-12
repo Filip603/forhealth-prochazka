@@ -1203,4 +1203,9 @@ a{
     height: 1200px;
     padding-top: 250px;
   }
+
+  .box__text{
+    width: 360px;
+    font-size: 12px;
+  }
 }

@@ -5,7 +5,7 @@
 <div class="box">
     <div class="box__text">
         <h1>
-        Členové firmy ForHealth
+            Členové firmy ForHealth
         </h1>
     </div>
 
