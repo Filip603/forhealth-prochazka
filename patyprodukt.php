@@ -4,35 +4,35 @@
 
 <div class="eachprodukt">
 
-    <img class="eachprodukt__image" src="images/noc-lahvicka.png" alt="">
+    <img class="eachprodukt__image" src="images/vitaminc.png" alt="">
 
     <div class="eachprodukt__text">
         <div class="eachprodukt__maintext">
             <h1>
-                Melatonin
+                Vitamín C
             </h1>
 
             <h2 class="eachprodukt__text--textík">
-                ForHealth Melatonin je přírodní doplněk stravy, který pomáhá tělu obnovit přirozený spánkový rytmus a zajistit klidný, hluboký spánek.
+                ForHealth Vitamín C je silný antioxidant, který podporuje imunitní systém a přirozenou obranyschopnost organismu.
             </h2>
 
             <h2 class="eachprodukt__text--textík">
-                Zlepšuje kvalitu odpočinku a napomáhá regeneraci organismu během noci.
+                Pomáhá snižovat únavu, zlepšuje vstřebávání železa a podporuje tvorbu kolagenu pro zdravou pokožku, zuby a cévy.
             </h2>
 
             <h2 class="eachprodukt__text--textík">
-                Bez návykových látek, s důrazem na kvalitu a čistotu surovin.
-                ForHealth – přirozená cesta k lepšímu spánku a zdraví.
+                Vyrobeno s důrazem na kvalitu, čistotu a maximální účinnost.
+                ForHealth – vaše každodenní dávka vitality.
             </h2>
         </div>
 
         <div class="eachprodukt__text--bottom">
             <h2 class="eachprodukt__text--price">
-                599 Kč
+                549 Kč
             </h2>
 
             <a href="kosik.php">
-                <button onclick="pridatDoKosiku('Melatonin', 599, 'images/noc-lahvicka.png')">
+                <button onclick="pridatDoKosiku('Vitamín C', 549, 'images/vitaminc.png')">
                     Do Košíku
                 </button>
             </a>

@@ -4,46 +4,40 @@
 
 <div class="eachprodukt">
 
-    <img class="eachprodukt__image" src="images/noc-lahvicka.png" alt="">
+    <img class="eachprodukt__image2" src="images/vitamind.png" alt="">
 
     <div class="eachprodukt__text">
         <div class="eachprodukt__maintext">
             <h1>
-                Melatonin
+                Vitamín D3
             </h1>
 
             <h2 class="eachprodukt__text--textík">
-                ForHealth Melatonin je přírodní doplněk stravy, který pomáhá tělu obnovit přirozený spánkový rytmus a zajistit klidný, hluboký spánek.
+                ForHealth Vitamín D3 podporuje imunitní systém, správnou činnost svalů a přirozenou pevnost kostí i zubů.
             </h2>
 
             <h2 class="eachprodukt__text--textík">
-                Zlepšuje kvalitu odpočinku a napomáhá regeneraci organismu během noci.
+                Pomáhá tělu vstřebávat vápník a přispívá k celkové vitalitě, zejména v obdobích s nedostatkem slunečního záření.
             </h2>
 
             <h2 class="eachprodukt__text--textík">
-                Bez návykových látek, s důrazem na kvalitu a čistotu surovin.
-                ForHealth – přirozená cesta k lepšímu spánku a zdraví.
+                Vyrobeno s důrazem na kvalitu a vstřebatelnost.
+                ForHealth – síla slunce pro vaše zdraví.
             </h2>
         </div>
 
         <div class="eachprodukt__text--bottom">
             <h2 class="eachprodukt__text--price">
-                599 Kč
+                649 Kč
             </h2>
 
             <a href="kosik.php">
-                <button onclick="pridatDoKosiku('Melatonin', 599, 'images/noc-lahvicka.png')">
+                <button onclick="pridatDoKosiku('Vitamín D3', 649, 'images/vitamind.png')">
                     Do Košíku
                 </button>
             </a>
         </div>
-
-    
-
-
     </div>
-
-
 </div>
 
 

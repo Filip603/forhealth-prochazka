@@ -4,25 +4,25 @@
 
 <div class="eachprodukt">
 
-    <img class="eachprodukt__image" src="images/noc-lahvicka.png" alt="">
+    <img class="eachprodukt__image" src="images/vitaminb6.png" alt="">
 
     <div class="eachprodukt__text">
         <div class="eachprodukt__maintext">
             <h1>
-                Melatonin
+                Vitamín B6
             </h1>
 
             <h2 class="eachprodukt__text--textík">
-                ForHealth Melatonin je přírodní doplněk stravy, který pomáhá tělu obnovit přirozený spánkový rytmus a zajistit klidný, hluboký spánek.
+                ForHealth Vitamín B6 podporuje správnou činnost nervového systému a přispívá k psychické pohodě i lepšímu soustředění.
             </h2>
 
             <h2 class="eachprodukt__text--textík">
-                Zlepšuje kvalitu odpočinku a napomáhá regeneraci organismu během noci.
+                Pomáhá snižovat únavu, podporuje tvorbu energie a přirozenou obranyschopnost organismu.
             </h2>
 
             <h2 class="eachprodukt__text--textík">
-                Bez návykových látek, s důrazem na kvalitu a čistotu surovin.
-                ForHealth – přirozená cesta k lepšímu spánku a zdraví.
+                Vyrobeno s důrazem na kvalitu, čistotu a optimální vstřebatelnost.
+                ForHealth – energie a rovnováha pro každý den.
             </h2>
         </div>
 
@@ -32,7 +32,7 @@
             </h2>
 
             <a href="kosik.php">
-                <button onclick="pridatDoKosiku('Melatonin', 599, 'images/noc-lahvicka.png')">
+                <button onclick="pridatDoKosiku('Vitamín B6', 599, 'images/vitaminb6.png')">
                     Do Košíku
                 </button>
             </a>

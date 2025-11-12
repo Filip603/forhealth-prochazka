@@ -171,12 +171,6 @@ a{
     justify-content: center;
     align-items: center;
 }
-.cart{
-    height: 650px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .underline{
   position: relative;
   display: inline-block;
@@ -240,7 +234,7 @@ a{
   max-width: 280px;
   width: 30%;
   height: auto;
-  top: 35%;
+  top: 25%;
   left: 16%;
   rotate: -10deg;
 }
@@ -249,7 +243,7 @@ a{
   width: 30%;
   max-width: 400px;
   height: auto;
-  top: 25%;
+  top: 15%;
   right: 18%;
   rotate: 10deg;
 }
@@ -488,6 +482,16 @@ a{
   background-color: #00000085;
   cursor: pointer;
 }
+.container2 a, .container3 a{
+  height: 550px;
+  width: 350px;
+  border-radius: 40px 40px 40px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
 .container__produkt1:hover{
   height: 550px;
   width: 350px;
@@ -595,20 +599,138 @@ a{
   flex-direction: column;
   align-items: center;
 }
-.eachprodukt{
+.eachprodukt {
   width: 100%;
   min-height: 1000px;
   background-image: url(../images/pozadicko.jpg);
   display: flex;
   justify-content: center;
-  gap: 400px;
-  padding-top: 200px;
+  align-items: center;
+  gap: 200px;
+  padding-top: 100px;
+  flex-wrap: wrap;
 }
-.eachprodukt__image{
-  max-height: 600px;
+
+.eachprodukt__image {
+  max-height: 580px;
   width: auto;
+  rotate: -8deg;
+}
+
+.eachprodukt__text {
+  height: 600px;
+  width: 700px;
+  background-color: #00000085;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  gap: 35px;
+  padding: 20px;
+}
+
+.eachprodukt__maintext {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  padding-top: 26px;
+}
+
+.eachprodukt__text h1 {
+  font-size: 42px;
+}
+
+.eachprodukt__text--textík {
+  width: 80%;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.eachprodukt__text--bottom {
+  width: 100%;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.eachprodukt button {
+  height: 55px;
+  width: 150px;
+  font-size: 26px;
+  cursor: pointer;
+  background-color: #00000094;
+  color: white;
+  border-radius: 20px;
+  border: 0;
+  font-family: "Alan Sans", sans-serif;
+  transition: transform 0.3s;
+}
+
+.eachprodukt button:hover {
+  transform: scale(1.1);
+}
+.eachprodukt__image2 {
+  max-height: 480px;
+  width: 260px;
+  rotate: -8deg;
+}
+
+.cart{
+  width: 100%;
+  height: 1000px;
+  background-image: url(../images/pozadicko.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 1650px) {
+  .eachprodukt__image2{
+    height: 350px;
+    width: 200px;
+  }
+
+  .eachprodukt__image{
+    height: 400px;
+    width: 280px;
+  }
+  .eachprodukt {
+    gap: 180px;
+    padding-top: 50px;
+  }
+
+  .eachprodukt__text {
+    width: 500px;
+    height: auto;
+  }
+
+  .eachprodukt__text h1 {
+    font-size: 36px;
+  }
+
+  .eachprodukt__text--textík {
+    width: 90%;
+    padding-top: 20px;
+    font-size: 18px;
+  }
+
+  .eachprodukt__text--bottom {
+    gap: 50px;
+    font-size: 22px;
+  }
+
+  .eachprodukt button {
+    width: 130px;
+    height: 45px;
+    font-size: 20px;
+  }
   .container2, .container3{
     gap: 80px;
     padding-bottom: 80px;
@@ -641,6 +763,7 @@ a{
   .mySlides__picture1, .mySlides__picture3{
     width: 20%;
     right: 40%;
+    top: 20%;
   }
   
   .mySlides__picture2{
@@ -677,6 +800,17 @@ a{
 }
 
 @media (max-width: 1000px) {
+  .eachprodukt__image2{
+    height: 315px;
+    width: 175px;
+  }
+
+  .eachprodukt {
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 120px;
+    height: 1400px;
+  }
 
   .container2, .container3{
     gap: 70px;
@@ -898,4 +1032,11 @@ a{
     height: auto;
     gap: 0;
   }
+
+  .eachprodukt__text{
+    width: 375px;
+    height: auto;
+    font-size: 12px;
+  }
+
 }
