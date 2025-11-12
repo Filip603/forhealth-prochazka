@@ -3,7 +3,11 @@
 ?>
 <div class="cart">
 
-    <div id="kosik-container" style="display:flex; flex-direction:column; gap:20px;"></div>
+    <h1>
+        Vítej v košíku
+    </h1>
+
+    <div class="kosik" id="kosik-container"></div>
 
 </div>
 

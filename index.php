@@ -7,40 +7,40 @@
 
     <div class="slideshow-container">
 
-    <div class="mySlides">
-        <div class="mySlides__text1">
-            <h2 class="mySlides__hlavnitext1">ForHealth Melatonin</h2>
-            <h3 class="mySlides__textík1">Dopřejte si kvalitní, hluboký a přirozený spánek díky síle přírody.</h3>
-            <h3 class="mySlides__textík1">Naše unikátní kombinace melatoninu a bylinných extraktů pomáhá zklidnit mysl, uvolnit tělo a připravit vás na kvalitní odpočinek.</h3>
+        <div class="mySlides">
+            <div class="mySlides__text1">
+                <h2 class="mySlides__hlavnitext1">ForHealth Melatonin</h2>
+                <h3 class="mySlides__textík1">Dopřejte si kvalitní, hluboký a přirozený spánek díky síle přírody.</h3>
+                <h3 class="mySlides__textík1">Naše unikátní kombinace melatoninu a bylinných extraktů pomáhá zklidnit mysl, uvolnit tělo a připravit vás na kvalitní odpočinek.</h3>
+            </div>
+            <img class="mySlides__background" src="images/noc.png" style="width:100%">
+            <img class="mySlides__picture1" src="images/noc-lahvicka.png" alt="">
         </div>
-        <img class="mySlides__background" src="images/noc.png" style="width:100%">
-        <img class="mySlides__picture1" src="images/noc-lahvicka.png" alt="">
-    </div>
 
-    <div class="mySlides fade">
-        <div class="mySlides__text2">
-            <h2 class="mySlides__hlavnitext2">ForHealth Vitamín D3</h2>
-            <h3 class="mySlides__textík2">Síla slunce ukrytá v každé dávce.</h3>
-            <h3 class="mySlides__textík2">Doplňte vitamín D a podpořte energii, odolnost i vnitřní pohodu.</h3>
+        <div class="mySlides fade">
+            <div class="mySlides__text2">
+                <h2 class="mySlides__hlavnitext2">ForHealth Vitamín D3</h2>
+                <h3 class="mySlides__textík2">Síla slunce ukrytá v každé dávce.</h3>
+                <h3 class="mySlides__textík2">Doplňte vitamín D a podpořte energii, odolnost i vnitřní pohodu.</h3>
 
+            </div>
+            <img class="mySlides__background" src="images/slunce.png" style="width:100%">
+            <img class="mySlides__picture2" src="images/vitamind.png" alt="">
         </div>
-        <img class="mySlides__background" src="images/slunce.png" style="width:100%">
-        <img class="mySlides__picture2" src="images/vitamind.png" alt="">
-    </div>
 
-    <div class="mySlides fade">
-        <div class="mySlides__text3">
-            <h2 class="mySlides__hlavnitext3">ForHealth Vitamín B3</h2>
-            <h3 class="mySlides__textík3">Přirozená podpora pro každý den.</h3>
-            <h3 class="mySlides__textík3">Pomáhá přeměňovat potravu na energii, podporuje nervový systém a přirozenou odolnost proti stresu.</h3>
+        <div class="mySlides fade">
+            <div class="mySlides__text3">
+                <h2 class="mySlides__hlavnitext3">ForHealth Vitamín B3</h2>
+                <h3 class="mySlides__textík3">Přirozená podpora pro každý den.</h3>
+                <h3 class="mySlides__textík3">Pomáhá přeměňovat potravu na energii, podporuje nervový systém a přirozenou odolnost proti stresu.</h3>
 
+            </div>
+            <img class="mySlides__background" src="images/stres.png" style="width:100%">
+            <img class="mySlides__picture3" src="images/vitaminb.png" alt="">
         </div>
-        <img class="mySlides__background" src="images/stres.png" style="width:100%">
-        <img class="mySlides__picture3" src="images/vitaminb.png" alt="">
-    </div>
 
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
 </div>
 
@@ -102,7 +102,6 @@
     </h2>
 
     <img class="hero4__image" src="" alt="Zde bude skupinová fotka">
-
 </div>
 
 

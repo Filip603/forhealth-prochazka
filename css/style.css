@@ -17,7 +17,6 @@ body{
     min-height: 75px;
     font-size: 20px;
     background-color: rgba(0, 0, 0, 0.664);
-    border-radius: 0 0 70px 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,8 +126,8 @@ a{
     gap: 80px;
 }
 .box__part--people{
-  height: 500px;
-  width: 360px;
+  height: 480px;
+  width: 340px;
   background-color: rgba(0, 0, 0, 0.705);
   border-radius: 40px 40px 40px 40px;
   display: flex;
@@ -139,8 +138,8 @@ a{
   transform: scale(1.05);
 }
 .box__picture{
-  width: 290px;
-  height: 370px;
+  width: 270px;
+  height: 350px;
   margin-bottom: 16px;
   margin-top: 28px;
   border-radius: 40px 40px 40px 40px;
@@ -166,10 +165,12 @@ a{
     align-items: center;
 }
 .login{
-    height: 650px;
+  width: 100%;
+    height: 1250px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/pozadicko.jpg);
 }
 .underline{
   position: relative;
@@ -258,7 +259,7 @@ a{
 }
 .mySlides__hlavnitext1{
   border-bottom: white 4px solid;
-  width: 430px;
+  width: 440px;
 }
 .mySlides__textík1{
   font-size: 20px;
@@ -407,7 +408,7 @@ a{
   max-width: 1600px;
   background-color: #00000085;
   border-radius: 25px 25px 25px 25px;
-  padding: 25px;
+  padding: 35px;
 }
 .hero4__image{
   max-height: 400px;
@@ -447,7 +448,7 @@ a{
   background-image: url(../images/pozadicko.jpg);
   display: flex;
   justify-content: center;
-  gap: 200px;
+  gap: 180px;
   color: white;
   flex-wrap: wrap;
 }
@@ -457,7 +458,7 @@ a{
   background-image: url(../images/pozadicko.jpg);
   display: flex;
   justify-content: center;
-  gap: 200px;
+  gap: 180px;
   color: white;
   flex-wrap: wrap;
 }
@@ -673,7 +674,6 @@ a{
   font-family: "Alan Sans", sans-serif;
   transition: transform 0.3s;
 }
-
 .eachprodukt button:hover {
   transform: scale(1.1);
 }
@@ -682,14 +682,97 @@ a{
   width: 260px;
   rotate: -8deg;
 }
-
-.cart{
+.content{
   width: 100%;
-  height: 1000px;
+  height: 1050px;
   background-image: url(../images/pozadicko.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 40px;
+  padding-top: 50px;
+}
+.content__maintext{
+  height: 50px;
+  width: 200px;
+  background-color: #00000094;
+  border-radius: 40px 40px 40px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.content__form{
+  width: 1300px;
+  height: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.content__text{
+  height: 120px;
+  width: 310px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border-radius: 40px;
+  color: black;
+}
+.content__text h2{
+  font-size: 28px;
+  color: black;
+}
+.content__text p, .content__text a{
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.content__text2{
+  height: 600px;
+  width: 800px;
+  background-color: #00000094;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content__text2 h1{
+  font-size: 30px;
+}
+.kosik-container{
+  display: flex;
+}
+.kosik{
+  display:flex;
+  justify-content: center;
+  gap: 120px;
+  flex-wrap: wrap;
+}
+.cart{
+  width: 100%;
+  min-height: 1000px;
+  padding-bottom: 150px;
+  background-image: url(../images/pozadicko.jpg);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.cart h1{
+  background-color: #00000094;
+  color: white;
+  height: 60px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  margin-top: 200px;
 }
 @media (max-width: 1650px) {
   .eachprodukt__image2{
@@ -1039,4 +1122,7 @@ a{
     font-size: 12px;
   }
 
+  .cart{
+    padding-top: 140px;
+  }
 }

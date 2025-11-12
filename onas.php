@@ -8,7 +8,6 @@
         Členové firmy ForHealth
         </h1>
     </div>
-    
 
     <div class="box__part">
         <div class="box__part--people">
@@ -86,7 +85,6 @@
             </h2>
         </div>
     </div>
-
 </div>
 
 <script src="js/index.js"></script>

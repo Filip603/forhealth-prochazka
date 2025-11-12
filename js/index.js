@@ -30,11 +30,8 @@ function pridatDoKosiku(nazev, cena, obrazek) {
 
     localStorage.setItem('kosik', JSON.stringify(kosik));
 
-    alert(`${Položka} byla přidán do košíku.`);
+    alert(`${Položka} byla přidána do košíku.`);
 }
-
-
-
 
 
 const container = document.getElementById('kosik-container');
@@ -52,13 +49,14 @@ function zobrazKosik() {
         const div = document.createElement('div');
         div.style.display = "flex";
         div.style.alignItems = "center";
-        div.style.gap = "20px";
+        div.style.gap = "10px";
+        div.style.flexDirection = "column";
 
 
-        let imgStyle = "width:100px; height:auto; border-radius:15px;";
+        let imgStyle = "width:150px; height:auto; border-radius:15px;";
 
         if (polozka.nazev === "Vitamín D3") {
-            imgStyle = "width:66px; height:120px; object-fit:cover; margin:17px";
+            imgStyle = "width:auto; height:187px; object-fit:cover; margin:20px";
         }
 
         div.innerHTML = `

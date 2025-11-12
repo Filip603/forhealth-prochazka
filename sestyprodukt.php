@@ -37,13 +37,7 @@
                 </button>
             </a>
         </div>
-
-    
-
-
     </div>
-
-
 </div>
 
 
