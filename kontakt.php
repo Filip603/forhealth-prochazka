@@ -23,7 +23,7 @@
         <section class="contact-section">
             <h2>Máte nějaké dotazy?</h2>
             <p>Ozvěte se nám pomocí formuláře níže.</p>
-
+ 
             <form class="contact-form" method="post">
                 <div class="form-group">
                     <label for="name">Jméno</label>

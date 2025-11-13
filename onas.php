@@ -66,7 +66,7 @@
 
     <div class="box__part">
         <div class="box__part--people">
-            <img class="box__picture" src="" alt="">
+            <img class="box__picture" src="images/halacka.jpg" alt="">
             <h2>
                 David Halačka
             </h2>
@@ -76,7 +76,7 @@
         </div>
 
         <div class="box__part--people">
-            <img class="box__picture" src="" alt="">
+            <img class="box__picture" src="images/pechova.jpg" alt="">
             <h2>
                 Kristýna Pechová
             </h2>

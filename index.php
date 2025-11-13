@@ -101,7 +101,7 @@
         A tak vznikla ForHealth – z touhy nabídnout lidem produkty, kterým můžeme opravdu věřit.
     </h2>
 
-    <img class="hero4__image" src="" alt="Zde bude skupinová fotka">
+    <img class="hero4__image" src="images/skupinové foto.jpg" alt="Zde bude skupinová fotka">
 </div>
 
 
