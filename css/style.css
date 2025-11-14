@@ -126,30 +126,6 @@ a{
     color: white;
     gap: 80px;
 }
-.box__part--people{
-  height: 480px;
-  width: 340px;
-  background-color: rgba(0, 0, 0, 0.705);
-  border-radius: 40px 40px 40px 40px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.box__part--people:hover{
-  transform: scale(1.05);
-}
-.box__picture{
-  width: 270px;
-  height: 350px;
-  margin-bottom: 16px;
-  margin-top: 28px;
-  border-radius: 40px 40px 40px 40px;
-}
-.box__part{
-  display: flex;
-  gap: 200px;
-  flex-wrap: wrap;
-}
 .box__text{
   display: flex;
   justify-content: center;
@@ -815,7 +791,7 @@ a{
   font-weight: 600;
 }
 .contact-form input, .contact-form textarea {
-  width: 88%;
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -850,7 +826,64 @@ a{
   align-items: center;
   justify-content: center;
 }
+.flip-card {
+  background-color: transparent;
+  border-radius: 40px;
+  perspective: 1000px;
+}
 
+.flip-card-inner {
+  position: relative;
+  width: 270px;    /* 🔥 hlavní šířka */
+  height: 350px;   /* 🔥 hlavní výška */
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  border-radius: 40px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, 
+.flip-card-back {
+  position: absolute;
+  width: 100%;   /* 🔥 stejné jako .flip-card-inner */
+  height: 100%;  /* 🔥 stejné jako .flip-card-inner */
+  border-radius: 40px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-front img {
+  width: 100%;     /* 🔥 obrázek přesně kopíruje pozadí */
+  height: 100%;    /* 🔥 obrázek přesně kopíruje pozadí */
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.flip-card-back {
+  background-color: #00000094;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box__part { 
+  display: flex;
+  gap: 200px;
+  flex-wrap: wrap;
+} 
+.box__images{ 
+  height: 350px;
+  width: 270px;
+  border-radius: 40px;
+}
 @media (max-width: 1650px) {
   .hero4__image{
     height: 350px;
@@ -1020,11 +1053,6 @@ a{
   .hero3__produkt--text, .hero2__produkt--text{
     width: 400px;
   }
-
-  .box__part--people{
-    height: 420px;
-    width: 300px;
-  }
   
   .box__picture{
     height: 280px;
@@ -1123,7 +1151,8 @@ a{
     display: flex;
     justify-content: center;
     padding-top: 350px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    gap: 0;
   }
 
   .underline::after{
@@ -1132,11 +1161,6 @@ a{
 
   .hero{
     padding-top: 300px;
-  }
-
-  .box__part{
-    display: flex;
-    justify-content: center;
   }
 
   .hero2{
@@ -1234,5 +1258,14 @@ a{
   .login{
     height: 740px;
     padding-top: 120px;
+  }
+
+  .box__part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
   }
 }
