@@ -24,7 +24,7 @@
             <h2>Máte nějaké dotazy?</h2>
             <p>Ozvěte se nám pomocí formuláře níže.</p>
  
-            <form class="contact-form" method="post">
+            <form class="contact-form" method="POST">
                 <div class="form-group">
                     <label for="name">Jméno</label>
                     <input type="text" id="name" name="name" placeholder="Vaše jméno" required>

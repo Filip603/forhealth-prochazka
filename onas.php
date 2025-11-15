@@ -17,7 +17,7 @@
                 </div>
                 <div class="flip-card-back">
                     <h1>Jakub Böhm</h1> 
-                    <p>ředitel firmy / jednatel</p> 
+                    <p>ředitel / jednatel</p> 
                 </div>
             </div>
         </div>
