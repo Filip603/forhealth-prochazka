@@ -11,13 +11,13 @@
             </div>
 
             <div class="footer__info">
-                <img class="footer__logo" src="images/logo.png" alt="">
+                <a href="index.php"><img class="footer__logo" src="images/logo.png" alt=""></a>
                 <h2>ForHealth © Copyright 2025</h2>
             </div>
 
             <div class="footer__insta">
                 <img class="instalogo" src="images/instalogo.png" alt="">
-                <h2>ForHealth</h2>
+                <h2 class="footer__insta--text">ForHealth</h2>
             </div>
 
         </div>

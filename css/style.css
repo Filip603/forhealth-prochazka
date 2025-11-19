@@ -49,6 +49,10 @@ body{
 .instalogo{
     height: 80px;
     width: 80px;
+    cursor: pointer;
+}
+.footer__insta--text{
+  cursor: pointer;
 }
 a{
     text-decoration: none;
